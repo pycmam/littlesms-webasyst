@@ -1,7 +1,7 @@
 INSERT INTO `SC_settings` (`settingsID`, `settings_groupID`, `settings_constant_name`, `settings_value`, `settings_title`, `settings_description`, `settings_html_function`, `sort_order`) VALUES 
-(null, 1, 'CONF_LITTLESMS_LOGIN_10', 'webasyst', 'Логин', 'Ваш логин для работы с системой.', 'setting_TEXT_BOX(0,', 1),
-(null, 1, 'CONF_LITTLESMS_KEY_10', 'qwerty1', 'АPI Ключ', 'Ваш API ключ для работы с системой.', 'setting_TEXT_BOX(0,', 1),
-(null, 1, 'CONF_LITTLESMS_ORIGINATOR_10', 'При', 'Отправитель сообщения, как он будет выглядеть на телефоне получателя', 'Строка (от 5 до 11 символов, латиница, цифры', 'setting_TEXT_BOX(0,', 1);
+(null, 1, 'CONF_LITTLESMS_LOGIN_10', 'webasyst', 'Р›РѕРіРёРЅ', 'Р’Р°С€ Р»РѕРіРёРЅ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ СЃРёСЃС‚РµРјРѕР№.', 'setting_TEXT_BOX(0,', 1),
+(null, 1, 'CONF_LITTLESMS_KEY_10', 'qwerty1', 'РђPI РљР»СЋС‡', 'Р’Р°С€ API РєР»СЋС‡ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ СЃРёСЃС‚РµРјРѕР№.', 'setting_TEXT_BOX(0,', 1),
+(null, 1, 'CONF_LITTLESMS_ORIGINATOR_10', 'РџСЂРё', 'РћС‚РїСЂР°РІРёС‚РµР»СЊ СЃРѕРѕР±С‰РµРЅРёСЏ, РєР°Рє РѕРЅ Р±СѓРґРµС‚ РІС‹РіР»СЏРґРµС‚СЊ РЅР° С‚РµР»РµС„РѕРЅРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ', 'РЎС‚СЂРѕРєР° (РѕС‚ 5 РґРѕ 11 СЃРёРјРІРѕР»РѕРІ, Р»Р°С‚РёРЅРёС†Р°, С†РёС„СЂС‹', 'setting_TEXT_BOX(0,', 1);
 
 INSERT INTO `SC_spmodules` (`module_id`, `module_type`, `module_name`, `ModuleClassName`) VALUES
 (10, NULL, 'Little SMS', 'LittleSMSgw');
