@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /**
  * Класс для работы с сервисом LittleSMS.ru
@@ -117,7 +117,7 @@ class LittleSMS
             curl_setopt($ch, CURLOPT_POST, 1);
             curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-            
+
             $response = curl_exec($ch);
             curl_close($ch);
         } else {
@@ -129,7 +129,7 @@ class LittleSMS
                     'timeout' => 10,
                 ),
             ));
-		
+
           $response = file_get_contents($url, false, $context);
         }
 
@@ -181,3 +181,4 @@ class LittleSMS
         return md5(sha1(join('', $params) . $this->key));
     }
 }
+?>
